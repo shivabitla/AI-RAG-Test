@@ -1,4 +1,4 @@
-name: API Deployment
+name: API Deployment1
 env:
   imageName: "${{ secrets.ACR_LOGIN_SERVER }}/techexcel/csapi:${{github.run_number}}"
   appName: app-${{ vars.APP_PREFIX }}-api
